@@ -1,4 +1,4 @@
-# Diligence Vendor Buddy
+# Vendor Buddy
 
 **Vendor payment investigation with evidence you can inspect.**
 
