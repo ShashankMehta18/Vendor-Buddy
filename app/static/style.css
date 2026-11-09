@@ -5,3 +5,10 @@
 
 /* Vendor Buddy brand lockup */
 .brand{display:flex;align-items:center;gap:12px;font-size:16px;letter-spacing:0}.brand img{width:44px;height:44px;object-fit:contain;flex-shrink:0}.brand>span:last-child{font-size:16px;letter-spacing:-.35px;white-space:nowrap}.brand small{font-size:7px;letter-spacing:2.3px;margin-top:7px}@media(max-width:800px){.brand img{width:36px;height:36px}.brand>span:last-child{font-size:15px}.brand small{font-size:6px}}
+/* Hide extra sidebar and header labels */
+.sidebar-bottom,
+.sidebar-note small,
+#engineHealth,
+header .avatar {
+  display: none !important;
+}
