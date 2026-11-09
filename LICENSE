@@ -1,0 +1,17 @@
+SPDX-License-Identifier: AGPL-3.0-or-later
+
+Copyright (C) 2026 Diligence contributors
+
+Original project code is licensed under the GNU Affero General Public License,
+version 3 or, at your option, any later version.
+
+You may use, modify and redistribute the program under those terms. The program
+is provided without any warranty, including implied warranties of merchantability
+or fitness for a particular purpose.
+
+Complete license text: https://www.gnu.org/licenses/agpl-3.0.txt
+
+Third-party dependencies retain their own licenses. In particular PyMuPDF/MuPDF
+is available under AGPL or separate commercial terms. See
+https://pymupdf.readthedocs.io/en/latest/about.html#license-and-copyright
+and docs/AI_AND_THIRD_PARTY.md.

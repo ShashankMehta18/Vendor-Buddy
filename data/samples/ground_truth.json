@@ -1,0 +1,21 @@
+{
+  "clean": [],
+  "suspicious": [
+    "price_mismatch",
+    "quantity_mismatch",
+    "bank_change",
+    "visual_outlier"
+  ],
+  "scanned": [
+    "price_mismatch",
+    "quantity_mismatch",
+    "bank_change"
+  ],
+  "duplicate": [
+    "price_mismatch",
+    "quantity_mismatch",
+    "bank_change",
+    "visual_outlier",
+    "duplicate"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "scope": "Four synthetic, template-controlled demonstration cases. Results do not estimate real-world accuracy. Timing depends on machine.",
+  "results": [
+    {
+      "scenario": "clean",
+      "documents": 4,
+      "expected_categories": [],
+      "observed_categories": [],
+      "matches_expected": true,
+      "findings": 0,
+      "evidence_references": 0,
+      "elapsed_seconds": 0.224,
+      "processing_failures": 0
+    },
+    {
+      "scenario": "suspicious",
+      "documents": 4,
+      "expected_categories": [
+        "bank_change",
+        "price_mismatch",
+        "quantity_mismatch",
+        "visual_outlier"
+      ],
+      "observed_categories": [
+        "bank_change",
+        "price_mismatch",
+        "quantity_mismatch",
+        "visual_outlier"
+      ],
+      "matches_expected": true,
+      "findings": 4,
+      "evidence_references": 7,
+      "elapsed_seconds": 0.151,
+      "processing_failures": 0
+    },
+    {
+      "scenario": "scanned",
+      "documents": 4,
+      "expected_categories": [
+        "bank_change",
+        "price_mismatch",
+        "quantity_mismatch"
+      ],
+      "observed_categories": [
+        "bank_change",
+        "price_mismatch",
+        "quantity_mismatch"
+      ],
+      "matches_expected": true,
+      "findings": 3,
+      "evidence_references": 6,
+      "elapsed_seconds": 1.005,
+      "processing_failures": 0
+    },
+    {
+      "scenario": "duplicate",
+      "documents": 5,
+      "expected_categories": [
+        "bank_change",
+        "duplicate",
+        "price_mismatch",
+        "quantity_mismatch",
+        "visual_outlier"
+      ],
+      "observed_categories": [
+        "bank_change",
+        "duplicate",
+        "price_mismatch",
+        "quantity_mismatch",
+        "visual_outlier"
+      ],
+      "matches_expected": true,
+      "findings": 9,
+      "evidence_references": 16,
+      "elapsed_seconds": 0.19,
+      "processing_failures": 0
+    }
+  ],
+  "matching_cases": 4,
+  "total_cases": 4
+}
