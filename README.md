@@ -2,7 +2,7 @@
 
 **Vendor payment investigation with evidence you can inspect.**
 
-DataOps Innovation Hackathon 2026 · PS-2: AI-Powered Document Forensics and Contextual Intelligence System.
+AI-Powered Document Forensics and Contextual Intelligence System.
 
 Vendor Buddy compares a vendor invoice with a purchase order, delivery receipt and approved vendor record. It extracts fields and SKU rows, identifies contextual discrepancies and limited visual anomalies, highlights original page regions, and generates an investigation dossier. It supports human review. It does not establish fraud or approve payments.
 
